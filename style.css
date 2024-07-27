@@ -46,3 +46,25 @@
 --font-bold        : 500;
 
 }
+
+body,
+button
+{
+    font-family: var(--body-font);
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6,
+b
+{
+    font-weight: var(--font-bold);
+}
+
+img
+{
+    width: 100%;
+}
