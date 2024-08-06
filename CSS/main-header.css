@@ -1,0 +1,17 @@
+/* ---- Cabecera principal de sitio ---- */
+
+.main-header
+{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    height: var(--header-height);
+    background-color: rgba(255, 0, 0, 0.4);
+    z-index: var(--z-fixed);
+}
+
